@@ -9,3 +9,7 @@ GAM do be like:
 ### set up & dependencies
 
 all in github via [https://github.com/googleads/googleads-python-lib](https://github.com/googleads/googleads-python-lib)
+
+- `conda activate gamapi`
+- `pip install setuptools`
+- `pip install googleads`
