@@ -1,15 +1,3 @@
-# gamapi
+# Blockchain Specialization
 
-Experimenting with GAM's [API](https://developers.google.com/ad-manager/api/start), for work and for fun.
-
-GAM do be like: 
-
-![Alt Text](http://i.imgur.com/Ssfp7.gif)
-
-### set up & dependencies
-
-all in github via [https://github.com/googleads/googleads-python-lib](https://github.com/googleads/googleads-python-lib)
-
-- `conda activate gamapi`
-- `pip install setuptools`
-- `pip install googleads`
+Completing Coursera's [Blockchain Specialization](https://www.coursera.org/specializations/blockchain). (repurposing this repo since gam api project is no longer relevant at work)
