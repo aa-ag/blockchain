@@ -9,6 +9,10 @@ config.py
 compelling-pen-318523-40d1f2048672.json
 compelling-pen-318523-40d1f2048672
 
+# class resources
+class_resources
+class_resources/*
+
 # .DS Store
 .DS_Store
 
