@@ -10,3 +10,7 @@ brew upgrade
 brew tap ethereum/ethereum
 brew install solidity
 ```
+
+### Interesting resources
+
+- blockgeeks' [solidity guide](https://blockgeeks.com/guides/solidity/)
