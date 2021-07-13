@@ -25,7 +25,14 @@ contract SpaceDoggos {
   mapping(address => Doggo) doggos;
 
   function createDoggo(string _name, uint8 _breed, uint8 _color, uint8 _face, uint8 _costume) {
-      
-  }
+        Doggo memory myDoggo = Doggo({
+            name: _name,
+            breed: _breed,
+            color: _color,
+            face: _face,
+            costume: _costume,
+            coordX: 0,
+            coordY: 0
+        });
 
 }
