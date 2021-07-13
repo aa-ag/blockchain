@@ -21,4 +21,7 @@ contract SpaceDoggos {
     uint coordY;
   }
 
+  // mapping(key_type => key_value) mappingName;
+  mapping(address => Doggo) doggos;
+
 }
