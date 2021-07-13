@@ -24,7 +24,7 @@ contract SpaceDoggos {
   // mapping(key_type => key_value) mappingName;
   mapping(address => Doggo) doggos;
 
-  function createDoggo() {
+  function createDoggo(string _name, uint8 _breed, uint8 _color, uint8 _face, uint8 _costume) {
       
   }
 
