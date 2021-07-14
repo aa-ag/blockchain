@@ -32,4 +32,11 @@ contract Types {
     // Added address type
     address public addr = 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c;
 
+    // Default values
+    // Unassigned variables have a default value
+    // https://solidity-by-example.org/primitives/
+    bool public defaultBoo; // false
+    uint public defaultUint; // 0
+    int public defaultInt; // 0
+    address public defaultAddr; // 0x0000000000000000000000000000000000000000
 }
