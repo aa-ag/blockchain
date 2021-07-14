@@ -28,4 +28,8 @@ contract Types {
       my_enum) {    
         return my_enum._geeks;    
     }    
+
+    // Added address type
+    address public addr = 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c;
+
 }
