@@ -32,7 +32,7 @@ contract Auction {
         //Part 1 Task 1. Initialize beneficiary with address of smart contract’s owner
         //Hint. In the constructor,"msg.sender" is the address of the owner.
         // ** Start code here. 1 line approximately. **/
-
+        beneficiary = msg.sender;
           //** End code here. **/
         uint[] memory emptyArray;
         items[0] = Item({itemId:0,itemTokens:emptyArray});
