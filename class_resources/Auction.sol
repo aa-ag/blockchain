@@ -39,8 +39,8 @@ contract Auction {
         
         //Part 1 Task 2. Initialize two items with at index 1 and 2. 
         // ** Start code here. 2 lines approximately. **/
-        items[1] = 
-        items[2] =
+        items[1] = Item({itemId:1,itemTokens:emptyArray});
+        items[2] = Item({itemId:2,itemTokens:emptyArray});
         //** End code here**/
     }
     
