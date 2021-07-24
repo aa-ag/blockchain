@@ -130,7 +130,7 @@ contract Auction {
             you need to assign the address of the person obtained above to winners[id] */
 
             // ** Start coding here *** 1 line approximately.
-            
+            winners[id] = bidders[winnerId].addr;
                     
             //** end code here*
                 
