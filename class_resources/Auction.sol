@@ -88,7 +88,7 @@ contract Auction {
         Hint. "tokenDetails[msg.sender].remainingTokens" should be decremented by "_count". */
  
         // ** Start code here. 1 line approximately. **
-        uint balance=
+        uint balance = tokenDetails[msg.sender].remainingTokens - _count;
         //** End code here. **
         
         tokenDetails[msg.sender].remainingTokens=balance;
